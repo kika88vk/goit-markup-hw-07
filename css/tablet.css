@@ -3,6 +3,49 @@
         max-width: 744px;
     }
 
+    /* ---------------Header------------------- */
+
+    .logo {
+        margin-right: 120px;
+    }
+
+    .site-nav {
+        display: block;
+        list-style-type: none;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        display: flex;
+        gap: 40px;
+    }
+
+    .mail-tel {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        font-style: normal;
+        color: var(--primary-text-color);
+    }
+
+    .mail-tel-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .link-mail-tel {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+
+    /* --------------Hero---------------- */
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+    }
+
     /* --------Features-------------- */
 
     .features-title {
@@ -36,5 +79,43 @@
 
         /*--------------------Footer----------------------*/
 
-        
+    .footer-info {
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 24px;
+        row-gap: 72px;
+        /* align-items: center; */
+        max-width: 584px;
+    }
+
+    .wrap-footer-text {
+    align-items: flex-start;
+    }
+
+    .soc-media-title {
+        text-align: start;
+    }
+
+    .subscribe-form {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .footer-form-title {
+        text-align: start;
+    }
+
+    .form-input-wrap input {
+        width: 264px;
+        max-width: 264px;
+        margin-bottom: 0;
+    }
+
+    .form-btn-wrap {
+        margin-left: 24px;
+    }
+
+    .telega-icon {
+        top: 8px;
+    }
 }
