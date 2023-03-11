@@ -45,6 +45,13 @@
     .header-menu-open {
         display: none;
     }
+
+    .header-menu {
+        display: none;
+    }
+
+    
+
     /* --------------Hero---------------- */
 
     .hero {
