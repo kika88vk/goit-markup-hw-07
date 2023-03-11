@@ -38,6 +38,7 @@ body {
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
+    height: 70px;
 
 }
 
@@ -129,6 +130,20 @@ body {
     color: var(--hover-color)
 }
 
+.header-menu-open {
+    padding: 0;
+    border: none;
+    background-color: #fff;
+
+}
+
+.menu-open-icon {
+    display: inline-block;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
 /*---------------Hero---------------*/
 
 
@@ -139,13 +154,22 @@ body {
     margin-right: auto;
     background: rgba(46, 47, 66, 0.7);
     background-image: linear-gradient(90deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 0%),
-        url("../images/people-office-1.jpg");
+        url("../images/Dark-bg-mob-1x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
     padding-top: 112px;
     padding-bottom: 112px;
+}
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(90deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 0%),
+                url("../images/Dark-bg-mob-2x.jpg");
+        }
 }
 
 .hero-title {
@@ -188,6 +212,8 @@ body {
     background-color: var(--hover-color)
     
 }
+
+
 
 /*--------------Features---------*/
 
