@@ -105,6 +105,7 @@
         row-gap: none;
     }
 
+
         /*--------------------Footer----------------------*/
 
     .footer {
@@ -115,5 +116,21 @@
     .footer-info {
         align-items: flex-start;
         justify-content: space-between;
+    }
+
+    /* --------------------------Portfolio--------------------------- */
+    
+    .filters-n-cards {
+        padding-bottom: 120px;
+        padding-top: 100px;
+    }
+    
+    .filters-list {
+        margin-bottom: 72px;
+    }
+
+    .cards-list {
+            
+        row-gap: 48px;
     }
 }

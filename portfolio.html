@@ -13,6 +13,9 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+    <link rel="stylesheet" href="./css/tablet.css" type="text/css">
+    <link rel="stylesheet" href="./css/desktop.css" type="text/css">
 </head>
 
 <body>
@@ -20,6 +23,7 @@
     <header class="page-header ">
 
         <div class="nav-flex container">
+
             <nav class="header-navigation">
                 <a href="./index.html" class="logo"><span class="accent-color">Web</span>Studio</a>
                 <ul class="site-nav">
@@ -38,6 +42,68 @@
                     <li><a href="tel:+110001111111" class="link-mail-tel">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button type="button" class="header-menu-open" data-menu-open>
+                <svg class="menu-open-icon" width="32" height="22">
+                    <use href="./images/symbol-defs-1.svg#icon-menu-hamburger"></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="header-menu is-hidden" data-menu>
+            <div class="container menu-transform">
+                <div>
+                    <button type="button" class="menu-button" data-menu-close>
+                        <svg class="menu-btn-close" width="8" height="8">
+                            <use href="./images/symbol-defs-1.svg#icon-close-black-18dp"></use>
+                        </svg>
+                    </button>
+                    <nav class="menu-navigation">
+                        <ul class="menu-site-nav">
+                            <li class="menu-site-nav-item"><a href="./index.html" target="_self"
+                                    rel="noopener noreferrer nofollow" class="menu-link-nav">Studio</a>
+                            </li>
+                            <li class="menu-site-nav-item"><a href="./portfolio.html" target="_self"
+                                    rel="noopener noreferrer nofollow" class="menu-link-nav">Portfolio</a></li>
+                            <li class="menu-site-nav-item"><a href="" target="_self" rel="noopener noreferrer nofollow"
+                                    class="menu-link-nav">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <address class="menu-mail-tel">
+                        <ul class="menu-mail-tel-list">
+                            <li class="menu-tel-item"><a href="tel:+110001111111" class="menu-link-tel">+11 (000)
+                                    111-11-11</a>
+                            </li>
+                            <li class="menu-mail-item"><a href="mailto:info@devstudio.com"
+                                    class="menu-link-mail">info@devstudio.com</a></li>
+                        </ul>
+                    </address>
+                    <ul class="menu-soc-list">
+                        <li class="team-soc-item"><a href="" class="team-soc-link">
+                                <svg class="team-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs-1.svg#icon-instagram"></use>
+                                </svg>
+                            </a></li>
+                        <li class="team-soc-item"><a href="" class="team-soc-link">
+                                <svg class="team-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs-1.svg#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                        <li class="team-soc-item"><a href="" class="team-soc-link">
+                                <svg class="team-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs-1.svg#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                        <li class="team-soc-item"><a href="" class="team-soc-link">
+                                <svg class="team-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs-1.svg#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
 
     </header>
@@ -233,6 +299,7 @@
         </div>
 
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

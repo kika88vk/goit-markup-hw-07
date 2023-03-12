@@ -105,6 +105,7 @@
         flex-basis: calc((100% - 48px) / 3);
     }
 
+    
         /*--------------------Footer----------------------*/
 
     .footer-info {
@@ -146,4 +147,26 @@
     .telega-icon {
         top: 8px;
     }
+
+/* -------------------Portfolio------------------------- */
+        
+    .filters-n-cards {
+        padding-bottom: 96px;
+        padding-top: 64px;
+    }
+        
+    .filters-list {
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+        
+    .cards-list {
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+        
+    /* .card-item {
+        flex-basis: calc((100% - 24px) / 2);
+    } */
 }

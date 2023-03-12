@@ -744,8 +744,8 @@ position: relative;
 /*----------------------Portfolio------------------------*/
 
 .filters-n-cards {
-    padding-bottom: 120px;
-    padding-top: 96px;
+    padding-bottom: 48px;
+    padding-top: 48px;
 }
 
 .filter-title {
@@ -757,12 +757,12 @@ position: relative;
 
 .filters-list {
     list-style-type: none;
-    margin-bottom: 72px;
+    margin-bottom: 48px;
     margin-top: 0;
     padding-left: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
-    justify-content: center;
 }
 
 .filter-btn {
@@ -800,10 +800,11 @@ position: relative;
     margin: 0;
     padding-left: 0;
     display: flex;
+    /* flex-direction: column;
+    align-items: center; */
     flex-wrap: wrap;
-    gap: 24px;
-    /* column-gap: 48px; */
-
+    row-gap: 48px;
+    justify-content: center;
 }
 
 .card-item:nth-last-child(-n + 3) {
@@ -812,7 +813,6 @@ position: relative;
 
 .card-item {
     background-color: #fff;
-    margin-bottom: 24px;
     transition: box-shadow 250ms var(--timing-function);
 }
 
@@ -868,6 +868,8 @@ position: relative;
 }
 
 .card-text {
+    font-size: 16px;
+    line-height: 1.5;
     color: var(--primary-text-color);
     margin: 0;
 
