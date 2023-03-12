@@ -3,6 +3,11 @@
         max-width: 744px;
     }
 
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        .cont-potrfolio {
+            max-width: 768px;
+        }
+    }
     /* ---------------Header------------------- */
 
     .page-header {
@@ -164,6 +169,7 @@
     .cards-list {
         column-gap: 24px;
         row-gap: 72px;
+        justify-content: start;
     }
         
     /* .card-item {
