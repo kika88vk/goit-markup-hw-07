@@ -81,6 +81,10 @@
         margin-top: 8px;
     }
 
+    .features-text {
+        font-weight: 400;
+    }
+
         /*------------Team-------------*/
     
     .team {

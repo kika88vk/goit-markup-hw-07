@@ -73,7 +73,7 @@ body {
 }
 
 .site-nav {
-   display: none;
+    display: none;
 }
 
 .accent-color {
@@ -245,6 +245,7 @@ body {
 .menu-link-tel {
     text-decoration: none;
     font-weight: 700;
+    font-style: normal;
     font-size: 22px;
     line-height: 1.11;
     letter-spacing: 0.02em;

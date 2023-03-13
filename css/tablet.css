@@ -1,13 +1,13 @@
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 744px;
+        max-width: 768px;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    /* @media screen and (min-width: 768px) and (max-width: 1199px) {
         .cont-potrfolio {
             max-width: 768px;
         }
-    }
+    } */
     /* ---------------Header------------------- */
 
     .page-header {
@@ -96,7 +96,15 @@
         column-gap: 24px;
     }
 
+    .team-cont {
+        max-width: 584px;
+    }
+
  /* --------------Customers---------------- */
+
+    .cust-cont {
+        max-width: 584px;
+    }
 
     .customers-list {
         column-gap: 24px;
